@@ -28,6 +28,10 @@ justify-content: space-between;
 cursor: pointer;
 transition: transform 200ms ease-in;
 }
+.Card:hover {
+  transform: scale(1.05);
+  transition-duration: .5s ;
+}
 .Card_image{
   height: 12rem;
   width: 100%;
